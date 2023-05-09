@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { of } from 'rxjs';
 import { Observable } from 'rxjs/internal/Observable';
-import { Data } from 'src/app/shared/models/dataModel';
+import { EnergyReading } from 'src/app/shared/models/data.model';
 
 @Component({
   selector: 'app-side-bar',

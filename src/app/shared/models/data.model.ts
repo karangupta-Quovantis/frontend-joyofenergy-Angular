@@ -1,4 +1,4 @@
-export interface Data{
+export interface EnergyReading{
     time: number,
     value: number
 }

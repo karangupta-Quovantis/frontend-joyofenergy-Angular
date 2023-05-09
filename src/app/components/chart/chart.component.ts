@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Data } from 'src/app/shared/models/dataModel';
+import { EnergyReading } from 'src/app/shared/models/data.model';
 
 
 
@@ -10,7 +10,7 @@ import { Data } from 'src/app/shared/models/dataModel';
 })
 export class ChartComponent implements OnInit {
   chart: any;
-  @Input() chartData: Data[] = [];
+  @Input() chartData: EnergyReading[] = [];
   constructor() { }
 
   ngOnInit(): void {
